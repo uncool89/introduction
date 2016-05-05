@@ -8,9 +8,9 @@ public class mapa {
 
 	public static void main(String[] args) {
 	Map<String, String> map = new HashMap<String, String>();
-	map.put("1", "Jan");
-	map.put("2", "Feb");
-	map.put("3", "Mar");
+	map.put("1", "Audi");
+	map.put("2", "Mercedes");
+	map.put("3", "BMW");
 	
 	//loop a Map
 	for (Map.Entry<String, String> entry : map.entrySet()) {
