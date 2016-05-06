@@ -7,6 +7,7 @@ import java.util.Set;
 public class mapa {
 
 	public static void main(String[] args) {
+    String test = "test";
 	Map<String, String> map = new HashMap<String, String>();
 	map.put("1", "Audi");
 	map.put("2", "Mercedes");
