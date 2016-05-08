@@ -1,13 +1,16 @@
 package mapa;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class mapa {
 
 	public static void main(String[] args) {
     String test = "test";
+    List <String> testList = new ArrayList<>();
+    testList.add("BMW");
 	Map<String, String> map = new HashMap<String, String>();
 	map.put("1", "Audi");
 	map.put("2", "Mercedes");
