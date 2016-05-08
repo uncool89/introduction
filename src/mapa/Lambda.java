@@ -6,7 +6,7 @@ public class Lambda {
 		repeat(10, () -> System.out.print("Wow!!!"));
 	}
 
-	public static void repeat(int n, Runnable action) {
-		for(int i = 0; i<n; i++) action.run();
+	public static void repeat(int n, IntConsumer action) {
+		for(int i = 0; i<n; i++) action.accept(i);
 	}
 }
