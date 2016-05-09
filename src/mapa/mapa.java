@@ -1,3 +1,5 @@
+package mapa;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,3 +10,4 @@ public class mapa {
 	testList.forEach(System.out::println);
     Lambda.execute();
 	}
+}
