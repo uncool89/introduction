@@ -10,5 +10,10 @@ public class mapa {
 	testList.add("TESLA");
 	testList.add("JAGUAR");
 	testList.forEach((x)->System.out.println(x));
+	Lambda.execute();
+	}
+	
+	private  void myMethod(){
+		System.out.println("Do nothing");
 	}
 }
