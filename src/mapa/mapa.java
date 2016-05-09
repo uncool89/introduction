@@ -7,7 +7,8 @@ public class mapa {
 
 	public static void main(String[] args) {
 	List <String> testList = new ArrayList<>();
-	testList.forEach(System.out::println);
-    Lambda.execute();
+	testList.add("AUDI");
+	testList.add("BMW")
+	testList.forEach((x)->System.out.println(x));
 	}
 }
