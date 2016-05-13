@@ -1,5 +1,7 @@
 package mapa;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +12,10 @@ public class mapa {
 	testList.add("HONDA");
 	testList.add("TOYOTA");
 	testList.forEach((x)->System.out.println(x));
+
+		testList.forEach(s -> System.out.println(s));
+
+
 	Lambda.execute();
 	}
 }
