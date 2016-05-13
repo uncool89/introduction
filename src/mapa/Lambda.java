@@ -9,6 +9,7 @@ public class Lambda {
 	
 	public static void execute() {
 		repeat(10, () -> new Object());
+		repeat(10, () -> System.out.print("Zajac je marchewke"));
 	}
 	
 
