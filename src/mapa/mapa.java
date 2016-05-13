@@ -11,7 +11,7 @@ public class mapa {
 	public static void main(String[] args) {
 	List <String> testList = new ArrayList<>();
 	testList.add("HONDA suxxxx :)");
-	testList.add("HONDA mamamammamamamma mamamammamamma brum brum brum");
+	testList.add("HONDA");
 	testList.add("TOYOTA");
 	testList.forEach((x)->System.out.println(x));
 	testList.forEach(s -> System.out.println(s));
