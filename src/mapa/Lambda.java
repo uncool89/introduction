@@ -10,4 +10,8 @@ public class Lambda {
 		for(int i = 0; i<n; i++) action.run();
 
 	}
+	
+	private void doSomethingSpecial() {
+		System.out.print("Nothing special");
+	}
 }
