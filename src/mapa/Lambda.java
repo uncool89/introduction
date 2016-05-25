@@ -17,5 +17,9 @@ public class Lambda {
 	private void doSomethingSpecial() {
 		System.out.print("Nothing special");
 	}
+	
+	public void doSomethingSpecial(final String nothingSpecial) {
+		System.out.print(nothingSpecial);
+	}
 
 }
