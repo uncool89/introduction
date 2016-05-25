@@ -10,7 +10,7 @@ public class mapa {
     // he?
 	public static void main(String[] args) {
 	List <String> testList = new ArrayList<>();
-	testList.add("FORD");
+	testList.add("OPEL");
 	testList.forEach((x)->System.out.println(x));
 	testList.forEach(s -> System.out.println(s));
 	Lambda.execute();
