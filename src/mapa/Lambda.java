@@ -17,5 +17,15 @@ public class Lambda {
 	private void doSomethingSpecial() {
 		System.out.print("Nothing special");
 	}
+	
+	private Object doSomethingSpecial(final int d) {
+		final int o = d;
+		System.out.print("Nothing special");
+	}
+	
+	private int doSomethingSpecial(final double d) {
+		final double o = d;
+		System.out.print("Nothing special");
+	}
 
 }
