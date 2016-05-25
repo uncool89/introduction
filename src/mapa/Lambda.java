@@ -8,7 +8,7 @@ public class Lambda {
 		repeat(10, () -> new Object());
 	}
 
-	public static void repeat(int n, Runnable action) {
+	public static void repeat(final int n, final Runnable action) {
 		for(int i = 0; i<n; i++) action.run();
 
 	}
