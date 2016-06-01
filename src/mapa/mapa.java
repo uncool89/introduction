@@ -14,6 +14,7 @@ public class mapa {
 	testList.add("TEST1");
 	testList.add("NISSAN");
 	testList.add("OPEL");
+    testList.add("NISSAN");
 	testList.forEach((x)->System.out.println(x));
 	testList.forEach(s -> System.out.println(s));
 	Lambda.execute();
