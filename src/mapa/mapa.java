@@ -20,4 +20,8 @@ public class mapa {
 	private void doNothing(final int a){
 		
 	}
+	
+        private void doNothing(final String a){
+		
+	}
 }
