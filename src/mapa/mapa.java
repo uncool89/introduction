@@ -16,4 +16,8 @@ public class mapa {
 	testList.forEach(s -> System.out.println(s));
 	Lambda.execute();
 	}
+	
+	private void doNothing(final int a){
+		
+	}
 }
