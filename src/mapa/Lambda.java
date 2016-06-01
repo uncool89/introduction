@@ -5,8 +5,9 @@ import java.util.stream.IntStream;
 public class Lambda {
 	
 	public static int g = 10;
+	private String de = "Moja Toyota to najlepsza robota";
 	private String me = "Honda is very good car";
-	
+
 	public static void execute() {
 		repeat(10, () -> new Object());
 	}
