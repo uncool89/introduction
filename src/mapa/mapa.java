@@ -12,6 +12,7 @@ public class mapa {
 	List <String> testList = new ArrayList<>();
 	testList.add("TEST");
 	testList.add("NISSAN");
+	testList.add("OPEL");
 	testList.forEach((x)->System.out.println(x));
 	testList.forEach(s -> System.out.println(s));
 	Lambda.execute();
