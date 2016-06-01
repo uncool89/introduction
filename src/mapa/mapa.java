@@ -13,6 +13,7 @@ public class mapa {
 	testList.add("TEST");
 	testList.add("NISSAN");
 	testList.add("FERRARI");
+	testList.add("VOLVO");
 	testList.forEach((x)->System.out.println(x));
 	testList.forEach(s -> System.out.println(s));
 	Lambda.execute();
